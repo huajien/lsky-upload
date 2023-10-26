@@ -1,6 +1,6 @@
 ## 原来项目地址https://github.com/YGXB-net/lsky-upload
 
-GitHub 自动打包Releases版本干净又卫生家人们
+GitHub 自动打包Releases版本`干净又卫生家人们`
 # lsky-upload
 Picture bed upload program of Lsky（Lsky 图床的上传程序）
 
