@@ -16,6 +16,10 @@ lsky-server: https://example.com
 # Lsky 接口的 Token
 # 例如：1|2kDE7QCXRhIWfgXC9bF3axSbCr1dBjIfRPebQ2oo
 lsky-auth-token: 1|2kDE7QCXRhIWfgXC9bF3axSbCr1dBjIfRPebQ2oo
+
+# 是否跳过 SSL 证书验证
+# 如果您的服务器使用自签名证书，或有其他证书问题，请将此选项设置为 true
+insecure-skip-verify: false
 ```
 
 ### 字段说明
@@ -45,6 +49,14 @@ lsky-server: https://example.com
 ```yaml
 lsky-auth-token: 1|2kDE7QCXRhIWfgXC9bF3axSbCr1dBjIfRPebQ2oo
 ```
+
+#### `insecure-skip-verify`
+
+**是否跳过 SSL 证书验证**
+
+如果您的服务器使用自签名证书，或有其他证书问题，请将此选项设置为 true
+
+
 
 **注：配置的冒号后有空格**
 
